@@ -2,6 +2,7 @@ from scrapy import signals
 
 
 class PepParse:
+
     @classmethod
     def from_crawler(cls, crawler):
         s = cls()
